@@ -1,0 +1,36 @@
+
+
+<!--script>
+	/* Send a comment to firebase*/
+	$('#commentForm').submit(function(evt){
+		evt.preventDefault();
+		console.log(comment_instance);
+
+		/* construct comments */
+		var comment_instance = {
+		author: $('#nameEntry').val(),
+		content: $('#contentEntry').val()
+		}
+
+		/* Send to Firebase */
+		firebase.database().ref('posts/testing/comment2/').set({
+			comment_instance
+		})
+
+		/* Give Hints */
+
+		/* Hide Form */
+
+		$('#nameEntry').val('');
+		$('#contentEntry').val('');
+		$('#collapseCommentForm').collapse('hide');
+	})
+</script>
+<script>
+	// Loop for each comments when page is loaded
+	firebase.database().ref('/posts/' + 'testing/').once().then(function(snapshot) {
+	  for com in snapshot.val():
+	  	
+	});
+
+</script-->

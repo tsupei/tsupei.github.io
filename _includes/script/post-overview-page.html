@@ -1,0 +1,38 @@
+<script>
+
+speed = 50;
+limit = [{{site.categories.cs.size}}, {{site.categories.jpstudy.size}}, {{site.categories.math.size}}, {{site.categories.life.size}}, {{site.categories.nlp.size}}];
+limit = limit.map(zoom)
+nameList = [".progress-cs", ".progress-jpstudy", ".progress-math", ".progress-life", ".progress-nlp"]
+console.log(limit);
+i = 0;
+
+
+function zoom(value, index, array){
+	return value * 3;
+}
+
+function runProgress(){
+	var flag = false;
+	for(c=0; c<5; c++){
+		if(i <= limit[c]){
+			flag = true
+			percentage = i + "%";
+			$(nameList[c]).css("width", percentage);
+			$(nameList[c]).attr("aria-valuenow", i);
+
+		}else{
+			$(nameList[c]).html(limit[c]/3);
+		}
+	}
+	if(flag){
+		setTimeout(runProgress, speed);
+		i++;
+	}
+}
+runProgress();
+	
+
+
+
+</script>

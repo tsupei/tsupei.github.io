@@ -1,0 +1,9 @@
+<div>
+{% assign tags = include.tags | split:"," %}
+<div class="profile-page-tags-section">
+{% for tag in tags %}
+	<a href="#" class="badge badge-dark">{{ tag }}</a>
+{% endfor %}
+</div>
+</div>
+

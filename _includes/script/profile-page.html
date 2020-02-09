@@ -1,0 +1,41 @@
+<script>
+
+
+$(document).ready(function(){
+  	$(".profile-page-intro-section").fadeIn(1000);
+});
+
+
+speed = 1;
+limit = [{{site.posts.size}}, {{site.works.size}}];
+limit = limit.map(zoom)
+nameList = [".progress-posts", ".progress-works"]
+console.log(limit);
+i = 0;
+
+
+function zoom(value, index, array){
+	return value * 3;
+}
+
+function runProgress(){
+	var flag = false;
+	for(c=0; c<5; c++){
+		if(i <= limit[c]){
+			flag = true
+			percentage = i + "%";
+			$(nameList[c]).css("width", percentage);
+			$(nameList[c]).attr("aria-valuenow", i);
+
+		}else{
+			$(nameList[c]).html(limit[c]/3);
+		}
+	}
+	if(flag){
+		setTimeout(runProgress, speed);
+		i++;
+	}
+}
+runProgress();
+
+</script>

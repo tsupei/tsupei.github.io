@@ -1,0 +1,32 @@
+---
+layout: home_post
+---
+
+<div class="post-view-color post-view-window">
+	
+	<!-- title -->
+	<div class="post-view-title text-left" >
+		<p>{{ page.title }}</p>
+	</div>
+	
+	<!-- date -->
+	<div class="post-view-date">
+			{{ page.date | date: "%-d %B %Y"  }}
+	</div>
+
+	<!-- tags -->
+	<div class="post-view-tags">
+		{% for tag in page.categories %}
+		<a href="#" class="badge badge-success">{{ tag }}</a>
+		{% endfor %}
+	</div>
+	<hr>
+
+	<!-- excerpt -->
+	<div class="post-view-excerpt text-left">
+		<p>
+			{{ page.content}}
+		</p>
+	</div>		
+</div>
+
