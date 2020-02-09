@@ -1,0 +1,12 @@
+---
+layout: home_post
+---
+<h1>POSTS</h1>
+<ul>
+	{% for post in site.posts %}
+	<li>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+		<p></p>
+	</li>
+	{% endfor %}
+</ul>

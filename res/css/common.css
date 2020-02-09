@@ -1,0 +1,594 @@
+html {
+	margin: 0;
+	padding: 0;
+	font: normal 100% / 1.4 Time New Roman;
+	max-width: 100%;
+	height: 100%;
+}
+body {
+	height:100%;
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.97);
+
+}
+
+img {
+	background-color: #FAF0E6	;
+	background-color: rgba(250, 240, 229, 1);
+}
+
+/* Custom Markdown Style*/
+
+/* change html tags*/
+
+a{
+	color: #333333;
+
+}
+a:hover{
+	text-decoration: none;
+	color: #555555;
+}
+
+pre {
+	border-radius: 0;	
+	background-color: white;
+
+}
+
+pre > code {
+	color: black;
+	font-family: courier;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+blockquote {
+	font-family: courier;
+	font-size: 1rem;
+	background-color: #FAF0E6;
+}
+
+/* Color Setting */
+/* We control background color seperately*/
+
+.dropdown-color{
+	background-color: #C6BEB9;
+	opacity: 0.8;
+}
+
+/* Navigation Bar */
+.nav-color {
+	background-color: white;
+}
+.bg-color{
+	background-color: #393732;
+}
+
+/* home */
+
+.home-color {
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.97);
+}
+
+.text-bg-color {
+	background-color: #FAF0E6	;
+}
+
+.footer-color{
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.97);
+}
+
+/* post view settings */
+
+.post-home-color {
+	background-color: #49A7A7;
+}
+
+.post-view-color {
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.97);
+}
+
+.post-view-window{
+	display:inline-block;
+	width: 100%;
+	margin: 50px 0px;
+	padding: 5px;
+	border-style: solid;
+}
+
+.post-view-title{
+	height: 50px;
+	font-size: 1.8rem;
+	padding: 10px;
+	margin:10px;
+}
+
+.post-view-date {
+	font-size: 0.7rem;
+	color: gray;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 10px;
+}
+
+.post-view-tags{
+	padding: 10px;
+	margin:10px;
+	text-align: left;
+}
+
+.post-view-excerpt{
+	padding: 10px;
+	margin:10px;
+}
+
+.post-view-readmore{
+	padding: 10px;
+	margin:10px;
+}
+
+/* work settings */
+
+.work-home-color{
+	background-color: #009FCC;
+}
+
+.work-view-color{
+	background-color: #DDDDDD;
+	opacity: 0.9;
+}
+
+.work-text-bg-color {
+	background-color: #DDDDDD;
+}
+
+/* navbar Setting */
+
+.navbar.navbar-default{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      color: white;
+      letter-spacing: 5px;
+}
+
+
+.dropdown-menu{
+	padding: 10px;
+	text-decoration:none;
+}
+
+.dropdown-item{
+	text-align: center;
+	padding: 10px 0px;
+	display: block;
+	width:100%;
+}
+
+/* profile */
+
+.profile-page-photo-section{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.profile-page-intro-section{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display:none;
+	background-color: #FFD9B3; /*淺橘*/
+	opacity: 0.8;
+	padding: 20px;
+	font-family: courier;
+	border-style: solid;
+}
+.profile-page-button-box {
+	margin-top: 60px;
+}
+.profile-button {
+	
+}
+.profile-button-box {
+	margin-top: 30px;
+}
+.profile-button-icon {
+	padding: 10px;
+}
+.profile-button-box-description {
+
+}
+.profile-page-tags-section{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.profile-page-highlight-section{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	background-color: #FFD9B3; /*淺橘*/
+	opacity: 0.8;
+	padding: 20px;
+	font-family: courier;
+	border-style: solid;
+}
+
+/* View Settings */
+/* post, work view*/
+
+.category-view-home {
+	margin-top:20px;
+	margin-bottom: 20px;
+	padding: 0 5px;
+}
+
+.article-view-home {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0 30px;
+}
+
+.view-home {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 0 30px;
+}
+.view-window{
+	display:inline-block;
+	width: 100%;
+	margin: 50px 0px;
+}
+.view-section-attr{
+	margin: 15px 10px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	color: black;
+	word-wrap:break-word;
+	overflow: hidden;
+}
+.view-section-title{
+	height: 50px;
+	font-size: 1.8rem;
+}
+.view-section-content{
+	font-size: 1rem;
+	line-height: 20px;
+}
+.view-section-readmore{
+	height: 30px;
+	font-size: 1rem;
+}
+
+/* Posts Setting */
+
+.max-height-350{
+	max-height: 350px;
+}
+.max-height-200{
+	max-height: 200px;
+}
+.round-corner{
+	border-radius: 10px;
+}
+
+
+/* Works Setting */
+
+
+.solid-border{
+	border-style: solid;
+}
+
+
+/* Article setting */
+.post-view-title{
+	height: 50px;
+	font-size: 1.8rem;
+	padding: 10px;
+	margin:10px;
+}
+
+.post-view-date {
+	font-size: 0.7rem;
+	color: gray;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 10px;
+}
+
+.post-view-tags{
+	padding: 10px;
+	margin:10px;
+	text-align: left;
+}
+
+
+.article-window {
+	border-radius: 10px;
+	padding: 5px 5px;
+	background-color: #49A7A7;
+}
+
+.article-title {
+	font-size: 2rem;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 1px;
+	margin: 30px;
+	border-radius: 20px;
+	background-color:#F0F0F0;
+}
+
+.article-date {
+	font-size: 0.7rem;
+	color: gray;
+	text-align: left;
+	padding: 5px 20px;
+	margin: 30px;
+}
+
+.article-content {
+	padding: 20px;
+	margin: 30px;
+	border-radius: 5px;
+	background-color: #F0F0F0;
+}
+
+/* Comment to Articles */
+
+.comment-box {
+	padding: 20px;
+}
+
+.comment-box-author {
+
+}
+
+.comment-box-content {
+
+
+}
+
+/* Work Article Setting */
+
+.work-article-window {
+	padding: 5px 5px;
+}
+
+.work-article-title {
+	padding: 5px 20px;
+	margin: 10px 0;
+	border-style: solid;
+}
+
+.work-article-content {
+	padding: 20px;
+	margin: 10px 0;
+	border-style: solid;
+}
+
+/* Footer Setting */
+
+.footer-window {
+	margin: 0px;
+	font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.footer-view {
+	height: 300px;
+}
+
+.footer-section {
+	text-align: left;
+	margin: 150px auto;
+	transform: translateY(-50%)
+}
+/* img window */
+
+.img-window {
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	border-style: solid;
+    border-width: 2px;
+    margin: 10px 0;
+}
+
+.img-photo{
+	padding: 50px 20px;
+	border-radius: 10px;
+}
+
+.img-description{
+	border-radius: 10px;
+	padding: 20px;
+
+}
+
+img {
+	display:block;
+    margin: 0 auto;
+}
+
+.one-img {
+	padding: 15px;
+}
+
+/* box / category box */
+
+.box-icon{
+	background-color: #49A7A7;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.box-description{
+
+}
+
+.box-description-title{
+	font-size: 2rem;
+	border-radius: 5px;
+
+}
+.box-description-detail{
+	font-size: 0.8rem;
+}
+
+.box-intro{
+	background-color: #DDDDDD;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.box-chart{
+
+}
+
+/*******/
+/* Set the elements which should be changed values in different devices */
+/*******/
+
+
+@media only screen and (min-width: 769px) {
+
+/* Footer */
+
+.footer-left {
+	line-height: 35px;
+	letter-spacing:1.5px;
+	border-top-style: solid;
+}
+
+.footer-center {
+	line-height: 20px;
+	border-left-style: solid;
+	font-size:0.7rem;
+	border-top-style: solid;
+
+}
+
+.footer-right {
+	line-height: 20px;
+	border-left-style: solid;
+	border-top-style: solid;
+}
+/* account-box */
+
+.account-box {
+	width:300px;
+	margin: auto auto;
+	text-align: center;
+}
+
+.account {
+	margin: 20px;
+	font-size:1em;
+	font-family: Arial;
+}
+
+/* Box (category-box)*/
+
+.box{
+	background-color: white;
+	margin: 100px;
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+
+/* Footer */
+
+
+.footer-left{
+	line-height: 35px;
+	letter-spacing:1.5px;
+	border-top-style: dashed;
+	font-family: Courier;
+}
+
+.footer-center{
+	line-height: 20px;
+	border-top-style: dashed;
+	font-size:0.6rem;
+}
+
+.footer-right{
+	line-height: 20px;
+	border-top-style: dashed;
+}
+
+.account {
+	padding-left: 10px;
+	font-size:0.8rem;
+}
+
+/* Box (category-box)*/
+
+.box{
+	background-color: white;
+	margin: 40px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+
+/* Footer */
+
+
+.footer-info {
+	line-height: 35px;
+	letter-spacing:1.5px;
+	border-top-style: dashed;
+	font-family: Courier;
+}
+
+.footer-words{
+	line-height: 20px;
+	border-top-style: dashed;
+	font-size:0.6rem;
+}
+
+.footer-license{
+	line-height: 20px;
+	border-top-style: dashed;
+}
+
+.account {
+	padding-left: 10px;
+	font-size:0.7rem;
+}
+
+/* Box (category-box)*/
+
+.box{
+	background-color: white;
+	margin: 20px;
+}
+
+/* profile-left's padding and profile-right's padding*/
+
+.profile-page-left{
+	padding: 0 20px 0;
+}
+
+.profile-page-right{
+	padding: 0 20px 0;
+}
+
+
+
+
+
+
+
+
