@@ -188,17 +188,19 @@ blockquote {
 	font-family: courier;
 	border-style: solid;
 }
-.profile-page-button-box {
+.profile-page-button-section {
 	margin-top: 60px;
 }
 .profile-button {
 	
 }
-.profile-button-box {
+.profile-page-button-box {
 	margin-top: 30px;
+	background-color: #FFEEDD	;
+	border-radius: 10px;
 }
 
-.profile-box-description-title{
+.profile-page-button-box-description-title{
 	font-size: 2rem;
 	border-radius: 5px;
 }
