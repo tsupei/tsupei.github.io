@@ -17,7 +17,10 @@ layout: home_post
 	<!-- tags -->
 	<div class="post-view-tags">
 		{% for tag in page.categories %}
-		<a href="#" class="badge badge-success">{{ tag }}</a>
+		<a href="{{site.baseurl}}/posts/categories/{{tag}}/" class="badge badge-success">{{ tag }}</a>
+		{% endfor %}
+		{% for tag in page.tags %}
+		<i href="#" class="badge badge-dark">{{ tag }}</i>
 		{% endfor %}
 	</div>
 	<hr>

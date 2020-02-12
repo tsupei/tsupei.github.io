@@ -17,6 +17,9 @@
 		{% for tag in post.categories %}
 		<a href="#" class="badge badge-success">{{ tag }}</a>
 		{% endfor %}
+		{% for tag in post.tags %}
+		<i href="#" class="badge badge-dark">{{ tag }}</i>
+		{% endfor %}
 	</div>
 	<hr>
 
