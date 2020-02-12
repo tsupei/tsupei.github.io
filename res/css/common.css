@@ -9,7 +9,6 @@ body {
 	height:100%;
 	background-color: white;
 	background-color: rgba(255, 255, 255, 0.97);
-
 }
 
 img {
@@ -123,6 +122,7 @@ blockquote {
 .post-view-excerpt{
 	padding: 10px;
 	margin:10px;
+	line-height: 50px;
 }
 
 .post-view-readmore{
