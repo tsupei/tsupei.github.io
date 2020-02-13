@@ -352,18 +352,27 @@ blockquote {
 	line-height: 35px;
 	letter-spacing:1.5px;
 	border-top-style: solid;
+	border-color: #D0D0D0;
 }
 
 .footer-center {
 	line-height: 20px;
 	font-size:0.7rem;
 	border-top-style: solid;
+	border-color: #D0D0D0;
+}
 
+.footer-copyright {
+	font-size: 10px;
+	font-family: Arial;
+	letter-spacing: 0.25em;
+	margin: 30px;
 }
 
 .footer-right {
 	line-height: 20px;
 	border-top-style: solid;
+	border-color: #D0D0D0;
 }
 
 .footer-window {
@@ -476,6 +485,7 @@ img {
 	line-height: 35px;
 	letter-spacing:1.5px;
 	border-top-style: solid;
+	border-color: #D0D0D0;
 }
 
 .footer-center {
@@ -484,12 +494,14 @@ img {
 	font-size:0.7rem;
 	border-top-style: solid;
 
+	border-color: #D0D0D0;
 }
 
 .footer-right {
 	line-height: 20px;
 	border-left-style: solid;
 	border-top-style: solid;
+	border-color: #D0D0D0;
 }
 /* account-box */
 
