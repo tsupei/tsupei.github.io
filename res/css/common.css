@@ -1,3 +1,4 @@
+@import "monokai.css";
 html {
 	margin: 0;
 	padding: 0;
@@ -15,6 +16,7 @@ img {
 	background-color: #FAF0E6	;
 	background-color: rgba(250, 240, 229, 1);
 }
+
 
 /* Custom Markdown Style*/
 
@@ -35,12 +37,7 @@ pre {
 
 }
 
-pre > code {
-	color: black;
-	font-family: courier;
-	font-size: 12px;
-	letter-spacing: 2px;
-}
+
 
 blockquote {
 	font-family: courier;
@@ -123,6 +120,10 @@ blockquote {
 	padding: 10px;
 	margin:10px;
 	line-height: 50px;
+}
+.highlight {
+	line-height:20px;
+	padding: 15px;
 }
 
 .post-view-readmore{
@@ -583,5 +584,4 @@ img {
 	font-size:1em;
 	font-family: Arial;
 }
-
 
