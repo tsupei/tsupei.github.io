@@ -3,8 +3,7 @@
 {% for post in site.posts %}
 	{% if post.highlight %}
 		<hr>
-		<a href="{{ site.baseurl }}{{ post.url  }}">{{ post.title }}</a>
+		<a href="{{ site.baseurl }}{{ post.url  }}" class="badge badge-warning">{{ post.title }}</a>
 	{% endif %}
 {% endfor %}
-
 </div>
