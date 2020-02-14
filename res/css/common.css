@@ -243,7 +243,7 @@ blockquote {
 .view-home {
 	margin-top: 20px;
 	margin-bottom: 20px;
-    padding: 0 30px;
+    padding: 0 5px;
 }
 .view-window{
 	display:inline-block;
@@ -478,6 +478,14 @@ img {
 /* notebook */
 
 @media only screen and (min-width: 769px) {
+
+/* View Home*/
+
+.view-home {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 0 30px;
+}
 
 /* Footer */
 
