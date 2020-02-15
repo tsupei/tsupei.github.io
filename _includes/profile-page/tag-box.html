@@ -1,9 +1,8 @@
 <div>
-{% assign tags = include.tags | split:"," %}
 <div class="profile-page-tags-section">
-{% for tag in tags %}
-	<a href="#" class="badge badge-dark">{{ tag }}</a>
-{% endfor %}
+	{% for post in site.posts %}
+		<a href="{{ site.baseurl }}{{ post.url  }}" class="badge badge-warning">{{ post.title }}</a>
+	{% endfor %}
 </div>
 </div>
 
