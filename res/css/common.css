@@ -17,6 +17,13 @@ img {
 	background-color: rgba(250, 240, 229, 1);
 }
 
+/* Motify bootstrap */
+code.highlighter-rouge {
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #FF7575 ;
+	background-color:#FFEEDD;
+}
 
 /* Custom Markdown Style*/
 
