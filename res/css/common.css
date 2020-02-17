@@ -16,6 +16,12 @@ img {
 	background-color: #FAF0E6	;
 	background-color: rgba(250, 240, 229, 1);
 }
+td {
+	padding: 0px 10px;
+}
+table {
+		margin: auto;
+}
 
 /* Motify bootstrap */
 code.highlighter-rouge {

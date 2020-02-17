@@ -1,7 +1,12 @@
-<div>
 <div class="profile-page-tags-section">
+<div>
 	{% for post in site.posts %}
 		<a href="{{ site.baseurl }}{{ post.url  }}" class="badge badge-warning">{{ post.title }}</a>
+	{% endfor %}
+</div>
+<divi style="opacity:0.5">
+	{% for tag in site.tags %}
+		<a class="badge badge-warning">{{ tag[0] }}</a>
 	{% endfor %}
 </div>
 </div>
