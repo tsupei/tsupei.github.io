@@ -23,6 +23,11 @@ table {
 		margin: auto;
 }
 
+/* Fix Overflowing markdown table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
 /* Motify bootstrap */
 code.highlighter-rouge {
 	margin-left: 5px;
