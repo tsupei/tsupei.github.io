@@ -4,3 +4,4 @@ exclude: ['README.md']
 collections:
   works:
     output: true
+plugins: ['jekyll-feed']
