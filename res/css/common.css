@@ -63,6 +63,11 @@ blockquote {
 	background-color: #FAF0E6;
 }
 
+/* RSS Settings */
+.rss-block {
+	margin: 20px;
+}
+
 /* Color Setting */
 /* We control background color seperately*/
 
@@ -188,6 +193,33 @@ blockquote {
 	padding: 10px 0px;
 	display: block;
 	width:100%;
+}
+
+/* about */
+.about-page{
+	margin: 30px 0px;
+}
+.about-page-name{
+	font-size: 35px;
+	letter-spacing: 3px;
+	margin: 30px;
+}
+.about-page-title{
+	font-size: 30px;
+	text-align: left;
+}
+.about-page-education-block{
+	margin: 10px 0px;
+}
+.about-page-school-name{
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.about-page-paragraph{
+	font-size:15px; 
+	margin-top: 20px;
 }
 
 /* profile */
