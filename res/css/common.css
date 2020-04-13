@@ -12,6 +12,17 @@ body {
 	background-color: rgba(255, 255, 255, 0.97);
 }
 
+strong {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 2px;
+	color: 	#00A600;
+	font-weight: 700;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
 img {
 	background-color: #FAF0E6	;
 	background-color: rgba(250, 240, 229, 1);
