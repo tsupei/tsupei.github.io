@@ -21,7 +21,7 @@ $p$
 ### 抽色球例子 
 ---
 
-[怎樣理解Cross-Entropy](http://shuokay.com/2017/06/23/cross-entropy/)這篇文章舉的例子我認為非常適合來幫助我們理解`Cross Entropy`，假設我們有從袋子裡面抽出色球，裡面分別有一顆`藍球`、`紅球`、`綠球`、`橘球`，抽到的機率都為$\frac{1}{4}$，我們每次抽完一顆球後，可以問一個是二分的是非題，例如：是不是藍球或紅球？而我們想計算平均要問幾次才能得到答案
+[「怎樣理解Cross-Entropy」](http://shuokay.com/2017/06/23/cross-entropy/)這篇文章舉的例子我認為非常適合來幫助我們理解`Cross Entropy`，假設我們有從袋子裡面抽出色球，裡面分別有一顆`藍球`、`紅球`、`綠球`、`橘球`，抽到的機率都為$\frac{1}{4}$，我們每次抽完一顆球後，可以問一個是二分的是非題，例如：是不是藍球或紅球？而我們想計算平均要問幾次，才知道抽的球的顏色
 
 所以我們最好的策略是
 
@@ -45,7 +45,7 @@ $p$
 2. 是的話，問是不是藍球
 3. 否的話，問是不是綠球
 
-平均兩個問題就能得到答案，這樣的過程其實就是`Entropy`
+上述事件的熵(Entropy)可以透過以下式子計算
 
 $$ \textit{Entropy} = \sum_{i} p_{i} log_{2}(\frac{1}{p_{i}}) = \sum_{i} -p_{i} log_{2}(p_{i}) $$
 
@@ -83,13 +83,27 @@ $$ = \frac{1}{4} \times 1 + \frac{1}{4} \times 2 + \frac{1}{4} \times 3 + \frac{
 
 $$ = 2.25 $$
 
-可以發現，比起最佳策略(Entropy)的$2$，使用新的策略需要$2.25$，下面列出幾個公式
 
+而如果$p$分布跟$q$分布相同的話，即為$p$的Entropy。
 
-### Information Theory
----
+我們可以進一步證明，兩分布不同時所得到的$ \textit{Cross Entropy}$一定大於真實分布的熵$ \textit{Cross Entropy}(p)$
 
-$$ \textit{Information Gain} = I(x) = -log_{2} (p(x)) $$
+我們表示$p$和$q$的`Cross Entropy`為$H(p, q)$，$p$和$q$個別的熵為$H(p)$和$H(q)$，$ D_{KL}(p \parallel q)$表示我們基於$q$分布來表示$p$分布所需要的額外編碼，我們在之後的篇幅會更詳細介紹
+
+$$ H(p, q) =  D_{KL}(p \parallel q) + H(p) $$
+
+我們可以利用$x-1 \ge log(x)$來證明$ D_{KL}(p \parallel q) \gt 0 $
+
+$$ D_{KL}(p \parallel q) = -\sum_{i} p_{i} log_{2}(\frac{q_{i}}{p_{i}}) \ge -\sum_{i} p_{i} (1-\frac{q_{i}}{p_{i}}) = \sum_{i} p_{i} (1 - \frac{p_{i}}{q_{i}}) = -\sum_{i}p_{i} + \sum_{i}q_{i} = 0
+$$
+
+### 分類問題
+
+在分類問題的模型，常常在最後一層會加一層`softmax`來模擬機率分布，而在損失函數的選擇上通常會選用`Cross Entropy`，讓我們來看一下如果是單類別的分類模型，會是怎麼進行
+
+$$ \textit{Cross Entropy} = \sum_{i} -p_{i} log_{2}(q_{i}) = -p_{k} log_{2}(q_{k}) = -log_{2}(q_{k}) $$ 
+
+因為我們的正確答案只會是某一個類別，假設是類別$k$，所以$p_{k} = 1 $，而其他為0
 
 
 ### Entropy
@@ -100,13 +114,6 @@ $$ H(X) = \sum_{i} -p_{i} log_{2}(p_{i}) $$
 {% include widget/photo.html url="https://photos1.blogger.com/blogger/5682/4111/1600/EntropyVersusProbability.0.png"
 description="From [http://www.chinakdd.com/article-124761.html]<br>Entropy is max on pi=0.5"
 %}
-
-### Cross entropy
----
-
-$$ \textit{Cross Entropy} = \sum_{c=1}^{C} \sum_{i=1}^{n} -y_{c,i} log_{2} (p_{c,i}) $$
-
-{% include widget/photo.html url="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/Line-Plot-of-Probability-Distribution-vs-Cross-Entropy-for-a-Binary-Classification-Task-With-Extreme-Case-Removed3.png" description="From ref.[2]<br>Distribution Plot of target [0, 1]" %}
 
 ### Reference
 ---
