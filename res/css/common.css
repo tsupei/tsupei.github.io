@@ -113,7 +113,7 @@ blockquote {
 /* post view settings */
 
 .post-home-color {
-	background-color: #49A7A7;
+	background-color: #49729bb3;
 }
 
 .post-view-color {
@@ -358,7 +358,7 @@ blockquote {
 .article-window {
 	border-radius: 10px;
 	padding: 5px 5px;
-	background-color: #49A7A7;
+	background-color: #49729bb3;
 }
 
 .article-title {
@@ -503,7 +503,7 @@ img {
 }
 
 .box-icon{
-	background-color: #49A7A7;
+	background-color: #49729bb3;
 	border-radius: 5px;
 	padding: 10px;
 }
