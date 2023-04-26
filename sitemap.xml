@@ -9,138 +9,183 @@
 
 <url>
   <loc>https://tsupei.github.io/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-25T16:21:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/index.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-25T16:21:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/posts/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-25T16:21:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-25T16:21:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/cs/2020/04/08/cralwer.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/cs/2020/03/31/nginx.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/cs/nlp/2020/03/10/dropout.html</loc>
+  <lastmod>2023-04-25T16:21:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/cs/2020/03/08/cycle-detection.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/cs/nlp/2020/02/20/BP.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/cs/nlp/2020/02/19/cross-entropy.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/cs/nlp/2020/02/11/WordVector.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/2020/02/07/DistilBERT.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/2019/12/30/prcurve.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/2019/12/02/ALBERT.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/2019/10/30/RoBERTa.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/2019/10/28/fscore.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/2019/10/25/cm.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/nlp/math/2019/07/20/PCA.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/cs/nlp/2018/06/09/HMM.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tsupei.github.io/math/2018/06/03/Dirichlet.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tsupei.github.io/math/2018/05/01/MLE.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tsupei.github.io/jpstudy/2018/04/26/HomeStay.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/posts/categories/cs/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/posts/categories/nlp/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/posts/categories/jpstudy/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/posts/categories/math/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/posts/categories/life/</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/2017-06-11-LSH.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/2018-01-01-blog.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/2019-07-21-YFR.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/2019-11-01-pilot.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/2020-02-13-treeviz.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://tsupei.github.io/works/2020-02-18-bayes.html</loc>
-  <lastmod>2020-02-19T03:12:52+00:00</lastmod>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/jpstudy/2018/04/26/HomeStay.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/math/2018/06/03/Dirichlet.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/math/2018/05/01/MLE.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/life/2023/04/26/fukuoka.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/life/2022/08/19/lanyu.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tsupei.github.io/life/2020/09/20/dairy0920.html</loc>
+  <lastmod>2023-04-26T13:50:54+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
