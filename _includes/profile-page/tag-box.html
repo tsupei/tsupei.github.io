@@ -2,7 +2,7 @@
 <div>
 	{% for post in site.posts %}
         {% if post.categories contains "cs" or post.categories contains "nlp" %}
-		<a href="{{ site.baseurl }}{{ post.url  }}" class="badge badge-warning">{{ post.title }}</a>
+		<a href="{{ site.baseurl }}{{ post.url  }}" class="badge badge-warning">{{ post.title | truncate: 30 }}</a>
         {% endif %}
 	{% endfor %}
 </div>
